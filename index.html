@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="./assets/css/styles/styles.css">
+    <link rel="stylesheet" href="./assets/css/effect/effetunderlign.css">
+    <link rel="stylesheet" href="./assets/css/effect/navbar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <ul class="links">
+                <li> <a href="#hero" class="hover-underline-animation">Home</a></li>
+                <li> <a href="#about_me" class="hover-underline-animation">About Me</a></li>
+                <li> <a href="#skills" class="hover-underline-animation">Skills</a></li>
+                <li> <a href="#project" class="hover-underline-animation">Projects</a></li>
+                <li> <a href="#contact" class="hover-underline-animation">Contact</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars" style="color: white;"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li> <a href="#hero" class="hover-underline-animation">Home</a></li>
+            <li> <a href="#about_me" class="hover-underline-animation">About Me</a></li>
+            <li> <a href="#skills" class="hover-underline-animation">Skills</a></li>
+            <li> <a href="#project" class="hover-underline-animation">Projects</a></li>
+            <li> <a href="#contact"  class="hover-underline-animation">Contact</a></li>
+        </div>
+    </header>
+
+    <div class="home">
+        <div class="title1" style="color: white;">
+            <h5>Hello I'm</h5>
+        </div>
+        <div class="title2">
+            <p>Djibril</p>
+        </div>
+
+    </div>
+
+    <div class="about_me hidden" id="about_me">
+        <div class="about_me_text">
+            <div class="about_me_title">
+                <h2 style="color: white;">A Propos de Moi</h2>
+            </div>
+            <div class="about_me_content">
+                <p style="color: white;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ut eum aliquam dolore cumque sequi quos officiis, ad animi perspiciatis reiciendis laborum ab commodi sint vel blanditiis placeat, natus soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum obcaecati voluptates earum tempore autem doloribus, nesciunt ab nostrum amet in molestias impedit officia quibusdam odio hic sunt eius provident consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, molestias sit? Deserunt a aperiam laboriosam, repudiandae laudantium minima totam odio ipsa voluptatibus illo unde, similique ab consequuntur esse earum qui?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills hidden" id="skills">
+        <div class="skills_container">
+            <div class="skills_box">
+                <div class="skill_title"><p>Soft Skills</p></div>
+                <div class="skill_text"><p style="color: white;">Je suis une personne autonome qui est capable de travailler sans surveillance constante. J'ai une grande capacité d'adaptation et je suis capable de m'ajuster à différents environnements de travail. En outre, je suis une personne responsable, qui prend ses engagements au sérieux. Enfin, je suis un communicateur efficace, capable de transmettre des informations de manière claire et concise, tout en écoutant attentivement les autres.
+                </p></div>
+            </div>
+            <div class="skills_box">
+                <div class="skill_title"><p>Hard Skills</p></div>
+                <div class="skill_text"><ul>
+                    <li style="color: white;">HTML/CSS pour la création et la mise en page de sites web</li>
+                    <li style="color: white;">Python pour la programmation de scripts et d'applications</li>
+                    <li style="color: white;">Golang pour la conception de logiciels performants et évolutifs</li>
+                    <li style="color: white;">Javascript pour le développement d'applications web interactives et dynamiques</li>
+                    <p style="color: white;">En outre, je suis en mesure d'utiliser des outils tels que Git pour la gestion de versions de code, ainsi que des bibliothèques et des frameworks pour améliorer l'efficacité de mon travail. J'ai également une solide compréhension des principes fondamentaux de la programmation, tels que les structures de données et les algorithmes, qui me permettent de résoudre efficacement les problèmes techniques rencontrés. Enfin, je suis toujours prêt à apprendre de nouvelles technologies et à m'adapter aux besoins de chaque projet.</p>
+                </ul></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project" id="project">
+        <div class="project_container">
+            <div class="project_box">
+                <div class="project_title"><p class="hover-underline-animation">Groupie Tracker</p></div>
+                <div class="project_box"> 
+                    <div class="project_text"><p style="color: white;">Projet Groupie Tracker est une application programmée en golang qui permet de lister un grand nombre d'artistes et d'afficher leurs dates de concert, le lieu de concert, leur premier album ainsi que de nombreuses autres informations. Pour créer une interface utilisateur graphique, j'ai utilisé Fyne, un module qui permet de créer une fenêtre pour l'application.
+                        En utilisant Groupie Tracker, vous pouvez facilement suivre votre artiste préféré et ne plus jamais manquer un concert. Vous pouvez également découvrir de nouveaux artistes et explorer leur musique en toute simplicité. Avec des informations détaillées sur les concerts et les albums des artistes, vous pouvez être sûr de ne rien manquer.
+                        En plus des fonctionnalités de base, Groupie Tracker offre également des fonctionnalités avancées telles que la possibilité de suivre les groupes en tournée dans différentes villes et de recevoir des notifications pour les concerts à venir. Vous pouvez également ajouter des artistes à votre liste de favoris pour un accès rapide et facile à leurs informations.
+                        Avec Groupie Tracker, la gestion de votre calendrier de concert devient plus facile que jamais. Profitez de la musique en direct et ne manquez jamais un spectacle grâce à cette application pratique et facile à utiliser.</p></div>               
+                    <div class="slider">
+                        <img src="./assets/images/Groupie1.png" alt="Test">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./assets/js/navbar_open.js"></script>
+    <script src="./assets/js/scroll_animation.js"></script>
+
+
+</body>
+
+</html>
+
